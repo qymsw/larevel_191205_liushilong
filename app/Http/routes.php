@@ -12,4 +12,8 @@
 */
 
 Route::get('/', 'MsgController@index');
-
+Route::get('/view/{id}', 'MsgController@view');
+Route::get('/add', function(){
+	return view('add');
+});
+Route::post('/add','MsgController@add');

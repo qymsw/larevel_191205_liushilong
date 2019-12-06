@@ -9,9 +9,8 @@
 		<a href="/">首页</a>
 		<hr>
 	</div>
-	<div id="content">
-		<!-- name = {{$name}} -->
-		@yield('content')
+	<div id="content">	
+		@yield('content')		
 	</div>
 	<div id="footer">
 		<hr>
